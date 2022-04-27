@@ -3,12 +3,13 @@
     margin: auto;
     margin-top:8%;
     border-radius: 15px;
-    box-shadow: 5px 10px 50px #888888;
+    box-shadow: 5px 10px 50px $colorGris;
+;
 }
 
 .con1{
     background-color: whitesmoke;
-    box-shadow: 5px 10px 50px #888888;
+    box-shadow: 5px 10px 50px $colorGris;
     width: 50%;
     margin-top:8%;
     border-top-left-radius: 8px;
@@ -30,7 +31,7 @@
         font-size: 20px;
         border-radius: 8px;
         padding: 0 50px 0 10px;
-        border: 1px solid gray;
+        border: 1px solid $colorGris;
         }
     }
 
@@ -67,11 +68,11 @@
 
     h2{
         font-size: 50px;
-        color: aliceblue;
+        color: $colorClaro;
     }
     
     p{
         font-size: 15px;
-        color: aliceblue;
+        color: $colorClaro;
     }
 }
