@@ -1,0 +1,77 @@
+.contenedor{
+    width:80%;
+    margin: auto;
+    margin-top:8%;
+    border-radius: 15px;
+    box-shadow: 5px 10px 50px #888888;
+}
+
+.con1{
+    background-color: whitesmoke;
+    box-shadow: 5px 10px 50px #888888;
+    width: 50%;
+    margin-top:8%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+    h1{
+        font-size: 50px;
+        margin: 50px 0 15px 0;
+        color: brown;
+    }
+
+    p{
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    form{
+        input{
+        font-size: 20px;
+        border-radius: 8px;
+        padding: 0 50px 0 10px;
+        border: 1px solid gray;
+        }
+    }
+
+    .btnRegistrar{
+        background-color: brown;
+        border-radius: 10px;
+        text-decoration: none;
+        padding: 5px 100px;
+        color: aliceblue;
+        font-size: 15px;
+    }
+
+    .textRecuperar{
+        margin-top: 15px;
+    }
+
+    ul{
+        margin-bottom:50px ;
+    }
+    
+}
+
+.con2{
+    background-image:url(../Img/gym1.jpeg);
+    background-position:bottom ;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    .cartaTitulo{
+        width: 80%;
+        margin: auto;
+         
+    }
+
+    h2{
+        font-size: 50px;
+        color: aliceblue;
+    }
+    
+    p{
+        font-size: 15px;
+        color: aliceblue;
+    }
+}
