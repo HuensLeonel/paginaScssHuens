@@ -1,0 +1,61 @@
+.contPlanes{
+    background: no-repeat 100% url(../Img/4066.jpg);
+    height: 80.83378016085791vh;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 5px 10px 50px $colorGris;
+
+    .btnSaberMasPlanes{
+        margin-top: 30px;
+
+        a{
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 1px solid $blanco;
+            color: $rojo;
+        }
+
+        a:hover{
+            background-color: $rojo;
+            color: $blanco;
+            border: 1px solid $blanco;
+        }
+    }
+}
+
+
+
+.contenedorTarjetas{
+    .img4{
+        @include mixin_cartas(50%,100%,$rojo);
+    }
+    
+    .img5{
+        @include mixin_cartas(50%,100%,$azul);
+    }
+    
+    .img6{
+        @include mixin_cartas(50%,100%,$amarillo);
+    }
+
+    .colorPlanes{
+    padding-top: 50px;
+}
+
+    .divCotratar{
+        margin-top: 40px;
+        .btnCotratar{
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 1px solid $blanco;
+        }
+
+        .btnCotratar:hover{
+            background-color: $rojo;
+            color: $blanco;
+            border: 1px solid $blanco;
+        }
+    }
+}

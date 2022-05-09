@@ -4,6 +4,16 @@
 $colorBody: beige;
 $colorGris: #888888;
 $colorClaro: aliceblue;
+$rojo:#c53240;
+$azul: #3498db;
+$amarillo: darkgoldenrod;
+$blanco:white;
+
+@mixin mixin_cartas($height,$width,$background){
+    background-color: $background;
+    height: $height;
+    width: $width;
+}
 
 *{
     margin: 0;
@@ -22,4 +32,34 @@ body{
     background-color: $colorBody;
 }
 
-@import "Index"
+@import "Index";
+
+@import "Inicio";
+
+@import "Contactos";
+
+@import "AcercaNosotros";
+
+@import "Planes";
+
+
+@media only screen and (max-width:1200px){
+    .form-img{
+        display: none;
+    }
+
+    .form{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:450px){
+    .sectionFrom {
+        width: 100%;
+    }
+    .contenedorFrom{
+        box-shadow: none;
+    }
+
+}
